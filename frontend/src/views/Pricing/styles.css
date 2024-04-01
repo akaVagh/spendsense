@@ -1,0 +1,18 @@
+.card-free {
+  transition: transform 0.15s ease-in-out;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: linear-gradient(to bottom, #3333cc, #5900b3);
+  color: white !important;
+}
+
+.card-pro {
+  transition: transform 0.15s ease-in-out;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: linear-gradient(to bottom, #3333cc, #5900b3);
+  color: white !important;
+}
+.card:hover {
+  transform: scale3d(1.05, 1.05, 1);
+}
